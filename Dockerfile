@@ -97,7 +97,7 @@ RUN mkdir -p /opt/fuse/licenses
 COPY licenses.css /opt/fuse/licenses
 COPY licenses.xml /opt/fuse/licenses
 COPY licenses.html /opt/fuse/licenses
-COPY apache_software_license_version_2.0-apache-2.0.txt /opt/fuse/licenses
+COPY LICENSE /opt/fuse/licenses
 
 
 # Necessary to permit running with a randomised UID
